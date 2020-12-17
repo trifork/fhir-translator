@@ -1,0 +1,23 @@
+application:
+    valuesets:
+        - http://hl7.org/fhir/ValueSet/care-team-status
+        - http://hl7.org/fhir/ValueSet/publication-status
+        - http://hl7.org/fhir/ValueSet/care-plan-status
+        - http://hl7.org/fhir/ValueSet/request-status
+        - http://hl7.org/fhir/ValueSet/episode-of-care-status
+        - http://hl7.org/fhir/ValueSet/consent-state-codes
+        - http://hl7.org/fhir/ValueSet/languages
+        - http://hl7.org/fhir/ValueSet/item-type
+        - http://hl7.org/fhir/ValueSet/resource-types
+        - http://hl7.org/fhir/ValueSet/units-of-time
+        - http://hl7.org/fhir/ValueSet/days-of-week
+        - http://hl7.org/fhir/ValueSet/event-timing
+        - http://hl7.org/fhir/ValueSet/timing-abbreviation
+        - http://hl7.org/fhir/ValueSet/address-use
+        - http://hl7.org/fhir/ValueSet/address-type
+
+
+
+
+
+fhir_version: stu3
