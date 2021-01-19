@@ -1,4 +1,4 @@
-package com.trifork.ehealth;
+package com.trifork.ehealth.translation;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

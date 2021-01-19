@@ -1,4 +1,4 @@
-package com.trifork.ehealth.fhir;
+package com.trifork.ehealth.translation.fhir;
 
 import ca.uhn.fhir.rest.server.IResourceProvider;
 import ca.uhn.fhir.rest.server.RestfulServer;

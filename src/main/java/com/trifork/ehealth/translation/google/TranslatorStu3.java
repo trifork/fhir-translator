@@ -1,4 +1,4 @@
-package com.trifork.ehealth.google;
+package com.trifork.ehealth.translation.google;
 
 import com.google.cloud.translate.Language;
 import com.google.cloud.translate.Translate;

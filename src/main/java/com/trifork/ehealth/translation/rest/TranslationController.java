@@ -1,7 +1,7 @@
-package com.trifork.ehealth.rest;
+package com.trifork.ehealth.translation.rest;
 
 import ca.uhn.fhir.context.FhirContext;
-import com.trifork.ehealth.fhir.dstu3.CodeSystemResourceProvider;
+import com.trifork.ehealth.translation.fhir.dstu3.CodeSystemResourceProvider;
 import org.hl7.fhir.dstu3.model.CodeSystem;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

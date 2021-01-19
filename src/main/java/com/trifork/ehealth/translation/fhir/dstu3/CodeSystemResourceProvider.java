@@ -1,13 +1,13 @@
-package com.trifork.ehealth.fhir.dstu3;
+package com.trifork.ehealth.translation.fhir.dstu3;
 
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.rest.annotation.Operation;
 import ca.uhn.fhir.rest.annotation.OperationParam;
 import ca.uhn.fhir.rest.server.IResourceProvider;
 import ca.uhn.fhir.util.BundleUtil;
-import com.trifork.ehealth.ApplicationProps;
-import com.trifork.ehealth.fhir.annotations.OnDSTU3Condition;
-import com.trifork.ehealth.google.TranslatorStu3;
+import com.trifork.ehealth.translation.ApplicationProps;
+import com.trifork.ehealth.translation.google.TranslatorStu3;
+import com.trifork.ehealth.translation.fhir.annotations.OnDSTU3Condition;
 import org.hl7.fhir.dstu3.model.Bundle;
 import org.hl7.fhir.dstu3.model.CodeSystem;
 import org.hl7.fhir.dstu3.model.ValueSet;

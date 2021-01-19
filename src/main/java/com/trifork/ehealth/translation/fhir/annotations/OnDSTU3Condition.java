@@ -1,4 +1,4 @@
-package com.trifork.ehealth.fhir.annotations;
+package com.trifork.ehealth.translation.fhir.annotations;
 
 import ca.uhn.fhir.context.FhirVersionEnum;
 import org.springframework.context.annotation.Condition;

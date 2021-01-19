@@ -1,6 +1,6 @@
-package com.trifork.ehealth;
+package com.trifork.ehealth.translation;
 
-import com.trifork.ehealth.fhir.FhirServlet;
+import com.trifork.ehealth.translation.fhir.FhirServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
