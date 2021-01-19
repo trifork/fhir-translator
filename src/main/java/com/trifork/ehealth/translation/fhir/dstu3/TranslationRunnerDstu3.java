@@ -62,7 +62,7 @@ public class TranslationRunnerDstu3 implements TranslationRunner {
 
         prepareOutDirectory();
         for (String codeSystemUrl : uniqueCodeSystems) {
-            logger.info("Fetching CodeSystem: {}", codeSystemUrl);
+            logger.debug("Fetching CodeSystem: {}", codeSystemUrl);
             var bundle = client.search().byUrl("CodeSystem?url=" + codeSystemUrl).returnBundle(Bundle.class).execute();
             var codeSystems = BundleUtil.toListOfResourcesOfType(fhirContext, bundle, CodeSystem.class);
             if (codeSystems.size() > 1) {
@@ -116,8 +116,9 @@ public class TranslationRunnerDstu3 implements TranslationRunner {
         String codeSystemString = parser.encodeResourceToString(codeSystem);
         logger.debug("Translated CodeSystem: {}", codeSystemString);
         String fileName = codeSystem.getName() + ".xml";
-        logger.info("Writing '{}'", fileName);
-        Files.writeString(Path.of(OUT_DIR + "/" + fileName), codeSystemString, UTF_8);
+        Path path = Path.of(OUT_DIR, fileName);
+        logger.info("Writing '{}'", path.toAbsolutePath());
+        Files.writeString(path, codeSystemString, UTF_8);
     }
 
 }
