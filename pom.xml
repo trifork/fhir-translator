@@ -8,10 +8,10 @@
     <version>2.4.2</version>
   </parent>
   <groupId>com.trifork.ehealth</groupId>
-  <artifactId>codesystem-translator</artifactId>
+  <artifactId>fhir-translator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>codesystem-translator</name>
-  <description>Codesystem Translator</description>
+  <name>fhir-translator</name>
+  <description>FHIR Translator</description>
 
   <properties>
     <java.version>11</java.version>
