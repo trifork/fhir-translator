@@ -10,7 +10,7 @@ public class OnDSTU3Condition implements Condition {
     public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata metadata) {
         FhirVersionEnum version = FhirVersionEnum.forVersionString(conditionContext.
                 getEnvironment()
-                .getRequiredProperty("fhir_version")
+                .getRequiredProperty("translator.fhir_version")
                 .toUpperCase());
 
         return version == FhirVersionEnum.DSTU3;

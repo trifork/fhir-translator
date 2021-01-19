@@ -1,4 +1,4 @@
-application:
+translator:
     valuesets:
         - http://hl7.org/fhir/ValueSet/care-team-status
         - http://hl7.org/fhir/ValueSet/publication-status
@@ -16,4 +16,6 @@ application:
         - http://hl7.org/fhir/ValueSet/address-use
         - http://hl7.org/fhir/ValueSet/address-type
 
-fhir_version: stu3
+    fhir_version: stu3
+
+    target_language: da
