@@ -9,13 +9,8 @@ import java.util.Collection;
 @Service
 public class FhirServlet extends RestfulServer {
 
-    public FhirServlet(Collection<IResourceProvider> resourceProviders
-    ) {
+    public FhirServlet(Collection<IResourceProvider> resourceProviders) {
         setResourceProviders(resourceProviders);
     }
 
-    @Override
-    protected void initialize() {
-        
-    }
 }
