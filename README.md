@@ -1,5 +1,5 @@
 # FHIR Translator
-Executable jar that translates input FHIR resources using Google Cloud Translation and outputs them in serialized form (xml files) 
+Executable jar that translates input FHIR resources using Google Cloud Translation and outputs them in serialized form (CodeSystems in xml files) 
 
 ## Currently Supports
 - DSTU3
