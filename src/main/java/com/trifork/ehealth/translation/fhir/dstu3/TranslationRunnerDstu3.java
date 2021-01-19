@@ -83,21 +83,31 @@ public class TranslationRunnerDstu3 implements TranslationRunner {
         }
     }
 
-    public void addGoogleTranslation(CodeSystem codeSystem, String language) {
+    public void addGoogleTranslation(CodeSystem codeSystem, String toLanguage) {
         for (CodeSystem.ConceptDefinitionComponent concept : codeSystem.getConcept()) {
-            if (concept.hasDisplay()) {
-                String translation = googleTranslator.translate(concept.getDisplay(), language);
-                logger.debug("Translated concept '{}' with Display text '{}' into '{}'", concept.getCode(), concept.getDisplay(), translation);
-                concept.addDesignation(
-                        new CodeSystem.ConceptDefinitionDesignationComponent()
-                                .setLanguage(language)
-                                .setValue(translation)
-                                .setUse(new Coding()
-                                        .setSystem("http://snomed.info/sct")
-                                        //See http://hl7.org/fhir/STU3/valueset-designation-use.html - eg the following:
-                                        .setCode("900000000000013009")));
-            } else
-                logger.debug("SKIPPING Concept with no Display text: {}", concept.getCode());
+            translateConcept(concept, toLanguage);
+        }
+    }
+
+    private void translateConcept(CodeSystem.ConceptDefinitionComponent concept, String toLanguage) {
+        if (concept.hasDisplay()) {
+            String translation = googleTranslator.translate(concept.getDisplay(), toLanguage);
+            logger.debug("Translated concept '{}' with Display text '{}' into '{}'", concept.getCode(), concept.getDisplay(), translation);
+            concept.addDesignation(
+                    new CodeSystem.ConceptDefinitionDesignationComponent()
+                            .setLanguage(toLanguage)
+                            .setValue(translation)
+                            .setUse(new Coding()
+                                    .setSystem("http://snomed.info/sct")
+                                    //See http://hl7.org/fhir/STU3/valueset-designation-use.html - eg the following:
+                                    .setCode("900000000000013009")));
+        } else {
+            logger.debug("SKIPPING Concept with no Display text: {}", concept.getCode());
+        }
+        if(concept.hasConcept()) {
+            for (CodeSystem.ConceptDefinitionComponent nestedConcept : concept.getConcept()) {
+                translateConcept(nestedConcept, toLanguage);
+            }
         }
     }
 
