@@ -60,7 +60,7 @@ public class TranslationRunnerDstu3 implements TranslationRunner {
         }
         logger.info("Total CodeSystems found: {}", uniqueCodeSystems);
 
-        prepareOutDirectory();
+        Files.createDirectories(Path.of(OUT_DIR));
         for (String codeSystemUrl : uniqueCodeSystems) {
             logger.debug("Fetching CodeSystem: {}", codeSystemUrl);
             var bundle = client.search().byUrl("CodeSystem?url=" + codeSystemUrl).returnBundle(Bundle.class).execute();
@@ -108,17 +108,6 @@ public class TranslationRunnerDstu3 implements TranslationRunner {
             for (CodeSystem.ConceptDefinitionComponent nestedConcept : concept.getConcept()) {
                 translateConcept(nestedConcept, toLanguage);
             }
-        }
-    }
-
-    public static void prepareOutDirectory() throws IOException {
-        Files.createDirectories(Path.of(OUT_DIR));
-        try (Stream<Path> walk = Files.walk(Path.of(OUT_DIR))) {
-            walk.sorted(Comparator.reverseOrder())
-                    .map(Path::toFile)
-                    .filter(File::isFile)
-                    .peek(file -> logger.debug("Deleting file {}", file.getPath()))
-                    .forEach(File::delete);
         }
     }
 
