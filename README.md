@@ -14,6 +14,6 @@ CodeSystem Concepts are translated by their `display` text by adding a `designat
 
 ## To Run
 Requires Java 11 JRE
-- Run `mvn package` to build the jar, or download the jar from [releases](releases)
+- Run `mvn package` to build the jar, or download the jar from [releases](https://github.com/trifork/fhir-translator/releases)
 - Run `java -DGOOGLE_API_KEY=<your_key> -jar fhir-translator.jar --spring.config.location=your-application.yaml`
   - Use `--spring.config.location` to provide your own values for application.yaml if needed
