@@ -82,6 +82,14 @@
         value="Hb(Fe; O&lt;sub&gt;2&lt;/sub&gt;-bind.; aB)—Oxygen(O&lt;sub&gt;2&lt;/sub&gt;); mætn. = ?"/>
     <definition
         value="Hb(Fe; O&lt;sub&gt;2&lt;/sub&gt;-bind.; aB)—Oxygen(O&lt;sub&gt;2&lt;/sub&gt;); mætn. = ?"/>
+    <designation>
+      <language value="da"></language>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
+        <code value="consumer"></code>
+      </use>
+      <value value="TBD"></value>
+    </designation>
   </concept>
   <concept>
     <code value="NPU27281"/>
@@ -89,20 +97,52 @@
         value="Pt—Legeme; massekoefficient(masse/kvadreret højde) = ? kg/m²"/>
     <definition
         value="Pt—Legeme; massekoefficient(masse/kvadreret højde) = ? kg/m²"/>
+    <designation>
+      <language value="da"></language>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
+        <code value="consumer"></code>
+      </use>
+      <value value="TBD"></value>
+    </designation>
   </concept>
   <concept>
     <code value="NPU03804"/>
     <display value="Pt—Legeme; masse = ? kg"/>
     <definition value="Pt—Legeme; masse = ? kg"/>
+    <designation>
+      <language value="da"></language>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
+        <code value="consumer"></code>
+      </use>
+      <value value="TBD"></value>
+    </designation>
   </concept>
   <concept>
     <code value="NPU21692"/>
     <display value="Hjerte—Systole; frekv. = ? × 1/min"/>
     <definition value="Hjerte—Systole; frekv. = ? × 1/min"/>
+    <designation>
+      <language value="da"></language>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
+        <code value="consumer"></code>
+      </use>
+      <value value="TBD"></value>
+    </designation>
   </concept>
   <concept>
     <code value="NPU03794"/>
     <display value="Legeme højde;Pt"/>
     <definition value="Pt—Legeme; højde = ? m"/>
+    <designation>
+      <language value="da"></language>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
+        <code value="consumer"></code>
+      </use>
+      <value value="TBD"></value>
+    </designation>
   </concept>
 </CodeSystem>
