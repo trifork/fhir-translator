@@ -66,7 +66,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Skærm"></value>
+         <value value="Visning"></value>
       </designation>
    </concept>
    <concept>
@@ -148,7 +148,7 @@
                <system value="http://snomed.info/sct"></system>
                <code value="900000000000013009"></code>
             </use>
-            <value value="Dato tid"></value>
+            <value value="Dato &amp; tidspunkt"></value>
          </designation>
       </concept>
       <concept>
@@ -161,7 +161,7 @@
                <system value="http://snomed.info/sct"></system>
                <code value="900000000000013009"></code>
             </use>
-            <value value="Tid"></value>
+            <value value="Tidspunkt"></value>
          </designation>
       </concept>
       <concept>
@@ -174,7 +174,7 @@
                <system value="http://snomed.info/sct"></system>
                <code value="900000000000013009"></code>
             </use>
-            <value value="Snor"></value>
+            <value value="Tekststreng"></value>
          </designation>
       </concept>
       <concept>
@@ -187,7 +187,7 @@
                <system value="http://snomed.info/sct"></system>
                <code value="900000000000013009"></code>
             </use>
-            <value value="Tekst"></value>
+            <value value="Fritekst"></value>
          </designation>
       </concept>
       <concept>
@@ -200,7 +200,7 @@
                <system value="http://snomed.info/sct"></system>
                <code value="900000000000013009"></code>
             </use>
-            <value value="Url"></value>
+            <value value="URL"></value>
          </designation>
       </concept>
       <concept>

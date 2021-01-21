@@ -35,222 +35,86 @@
       <code value="AC"></code>
       <display value="AC"></display>
       <definition value="before meal (from lat. ante cibus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="AC"></value>
-      </designation>
    </concept>
    <concept>
       <code value="ACD"></code>
       <display value="ACD"></display>
       <definition value="before lunch (from lat. ante cibus diurnus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="ACD"></value>
-      </designation>
    </concept>
    <concept>
       <code value="ACM"></code>
       <display value="ACM"></display>
       <definition value="before breakfast (from lat. ante cibus matutinus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="ACM"></value>
-      </designation>
    </concept>
    <concept>
       <code value="ACV"></code>
       <display value="ACV"></display>
       <definition value="before dinner (from lat. ante cibus vespertinus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="ACV"></value>
-      </designation>
    </concept>
    <concept>
       <code value="C"></code>
       <display value="C"></display>
       <definition value="Description: meal (from lat. ante cibus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="C"></value>
-      </designation>
       <concept>
          <code value="CD"></code>
          <display value="CD"></display>
          <definition value="Description: lunch (from lat. cibus diurnus)"></definition>
-         <designation>
-            <language value="da"></language>
-            <use>
-               <system value="http://snomed.info/sct"></system>
-               <code value="900000000000013009"></code>
-            </use>
-            <value value="CD"></value>
-         </designation>
       </concept>
       <concept>
          <code value="CM"></code>
          <display value="CM"></display>
          <definition value="Description: breakfast (from lat. cibus matutinus)"></definition>
-         <designation>
-            <language value="da"></language>
-            <use>
-               <system value="http://snomed.info/sct"></system>
-               <code value="900000000000013009"></code>
-            </use>
-            <value value="CM"></value>
-         </designation>
       </concept>
       <concept>
          <code value="CV"></code>
          <display value="CV"></display>
          <definition value="Description: dinner (from lat. cibus vespertinus)"></definition>
-         <designation>
-            <language value="da"></language>
-            <use>
-               <system value="http://snomed.info/sct"></system>
-               <code value="900000000000013009"></code>
-            </use>
-            <value value="CV"></value>
-         </designation>
       </concept>
    </concept>
    <concept>
       <code value="HS"></code>
       <display value="HS"></display>
       <definition value="Description: Prior to beginning a regular period of extended sleep (this would exclude naps).  Note that this might occur at different times of day depending on a person's regular sleep schedule."></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="HS"></value>
-      </designation>
    </concept>
    <concept>
       <code value="IC"></code>
       <display value="IC"></display>
       <definition value="between meals (from lat. inter cibus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="IC"></value>
-      </designation>
    </concept>
    <concept>
       <code value="ICD"></code>
       <display value="ICD"></display>
       <definition value="between lunch and dinner"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="ICD"></value>
-      </designation>
    </concept>
    <concept>
       <code value="ICM"></code>
       <display value="ICM"></display>
       <definition value="between breakfast and lunch"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="ICM"></value>
-      </designation>
    </concept>
    <concept>
       <code value="ICV"></code>
       <display value="ICV"></display>
       <definition value="between dinner and the hour of sleep"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="ICV"></value>
-      </designation>
    </concept>
    <concept>
       <code value="PC"></code>
       <display value="PC"></display>
       <definition value="after meal (from lat. post cibus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="PC"></value>
-      </designation>
    </concept>
    <concept>
       <code value="PCD"></code>
       <display value="PCD"></display>
       <definition value="after lunch (from lat. post cibus diurnus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="PCD"></value>
-      </designation>
    </concept>
    <concept>
       <code value="PCM"></code>
       <display value="PCM"></display>
       <definition value="after breakfast (from lat. post cibus matutinus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="PCM"></value>
-      </designation>
    </concept>
    <concept>
       <code value="PCV"></code>
       <display value="PCV"></display>
       <definition value="after dinner (from lat. post cibus vespertinus)"></definition>
-      <designation>
-         <language value="da"></language>
-         <use>
-            <system value="http://snomed.info/sct"></system>
-            <code value="900000000000013009"></code>
-         </use>
-         <value value="PCV"></value>
-      </designation>
    </concept>
    <concept>
       <code value="WAKE"></code>
@@ -271,7 +135,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="VÅGNE"></value>
+         <value value="Opvågning"></value>
       </designation>
    </concept>
 </CodeSystem>

@@ -47,7 +47,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Foreslog"></value>
+         <value value="Forslag"></value>
       </designation>
    </concept>
    <concept>
@@ -99,7 +99,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Indtastet i fejl"></value>
+         <value value="Fejlindtastning"></value>
       </designation>
    </concept>
 </CodeSystem>

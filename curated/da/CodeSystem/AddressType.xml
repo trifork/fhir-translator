@@ -47,7 +47,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Postnummer"></value>
+         <value value="Post"></value>
       </designation>
    </concept>
    <concept>
@@ -73,7 +73,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Post &amp;amp; Fysisk"></value>
+         <value value="Post &amp; fysisk"></value>
       </designation>
    </concept>
 </CodeSystem>

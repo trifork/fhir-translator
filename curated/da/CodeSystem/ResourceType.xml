@@ -82,7 +82,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Allergi Intolerance"></value>
+         <value value="Allergi / intolerance"></value>
       </designation>
    </concept>
    <concept>
@@ -108,7 +108,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Udnævnelse Svar"></value>
+         <value value="Aftalesvar"></value>
       </designation>
    </concept>
    <concept>
@@ -121,7 +121,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="AuditEvent"></value>
+         <value value="Kontrolrapportering"></value>
       </designation>
    </concept>
    <concept>
@@ -160,7 +160,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="BodySite"></value>
+         <value value="Kropspunkt"></value>
       </designation>
    </concept>
    <concept>
@@ -186,7 +186,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="CapabilityStatement"></value>
+         <value value="Kapabilitetserklæring"></value>
       </designation>
    </concept>
    <concept>
@@ -199,7 +199,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="CarePlan"></value>
+         <value value="Behandlingsplan"></value>
       </designation>
    </concept>
    <concept>
@@ -212,7 +212,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="CareTeam"></value>
+         <value value="Behandlingsteam"></value>
       </designation>
    </concept>
    <concept>
@@ -225,7 +225,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ChargeItem"></value>
+         <value value="Postering"></value>
       </designation>
    </concept>
    <concept>
@@ -238,7 +238,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Påstand"></value>
+         <value value="Krav"></value>
       </designation>
    </concept>
    <concept>
@@ -251,7 +251,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Krav Svar"></value>
+         <value value="Kravssvar"></value>
       </designation>
    </concept>
    <concept>
@@ -264,7 +264,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Klinisk indtryk"></value>
+         <value value="Klinisk vurdering"></value>
       </designation>
    </concept>
    <concept>
@@ -342,7 +342,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ConceptMap"></value>
+         <value value="Konceptkortlægning"></value>
       </designation>
    </concept>
    <concept>
@@ -407,7 +407,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DataElement"></value>
+         <value value="Dataelement"></value>
       </designation>
    </concept>
    <concept>
@@ -446,7 +446,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DeviceComponent"></value>
+         <value value="Enhedskomponent"></value>
       </designation>
    </concept>
    <concept>
@@ -459,7 +459,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DeviceMetric"></value>
+         <value value="Enhedsfunktion"></value>
       </designation>
    </concept>
    <concept>
@@ -472,7 +472,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DeviceRequest"></value>
+         <value value="Enhedsbrugsanmodning"></value>
       </designation>
    </concept>
    <concept>
@@ -485,7 +485,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DeviceUseStatement"></value>
+         <value value="Enhedsbrugsrapport"></value>
       </designation>
    </concept>
    <concept>
@@ -498,7 +498,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DiagnosticReport"></value>
+         <value value="Diagnosticeringsrapport"></value>
       </designation>
    </concept>
    <concept>
@@ -511,7 +511,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DocumentManifest"></value>
+         <value value="Dokumentsamling"></value>
       </designation>
    </concept>
    <concept>
@@ -524,7 +524,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Dokumentreference"></value>
+         <value value="Dokumentsreference"></value>
       </designation>
    </concept>
    <concept>
@@ -537,7 +537,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="DomainResource"></value>
+         <value value="Domæneressource"></value>
       </designation>
    </concept>
    <concept>
@@ -550,7 +550,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Berettigelse Anmodning"></value>
+         <value value="Gyldighedsanmodning"></value>
       </designation>
    </concept>
    <concept>
@@ -563,7 +563,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Berettigelse Svar"></value>
+         <value value="Gyldighedssvar"></value>
       </designation>
    </concept>
    <concept>
@@ -576,7 +576,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Komme ud for"></value>
+         <value value="Kontakt"></value>
       </designation>
    </concept>
    <concept>
@@ -589,7 +589,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Slutpunkt"></value>
+         <value value="Endepunkt"></value>
       </designation>
    </concept>
    <concept>
@@ -628,7 +628,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="EpisodeOfCare"></value>
+         <value value="Forløb"></value>
       </designation>
    </concept>
    <concept>
@@ -654,7 +654,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Forklaring til fordel"></value>
+         <value value="Kravsudfald"></value>
       </designation>
    </concept>
    <concept>
@@ -667,7 +667,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="FamilyMemberHistory"></value>
+         <value value="Familiemedlemshelbredshistorik"></value>
       </designation>
    </concept>
    <concept>
@@ -706,7 +706,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="GraphDefinition"></value>
+         <value value="Grafdefinition"></value>
       </designation>
    </concept>
    <concept>
@@ -732,7 +732,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Vejledning Svar"></value>
+         <value value="Vejledningssvar"></value>
       </designation>
    </concept>
    <concept>
@@ -745,7 +745,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="HealthcareService"></value>
+         <value value="Sundhedsservice"></value>
       </designation>
    </concept>
    <concept>
@@ -758,7 +758,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Imagingmanifest"></value>
+         <value value="Billedtypebeskrivelse"></value>
       </designation>
    </concept>
    <concept>
@@ -771,7 +771,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ImagingStudy"></value>
+         <value value="Billedundersøgelse"></value>
       </designation>
    </concept>
    <concept>
@@ -797,7 +797,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Immunisering Anbefaling"></value>
+         <value value="Immuniseringsanbefaling"></value>
       </designation>
    </concept>
    <concept>
@@ -810,7 +810,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ImplementationGuide"></value>
+         <value value="Implementationsguide"></value>
       </designation>
    </concept>
    <concept>
@@ -836,7 +836,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Tilslutning"></value>
+         <value value="Sammenkobling"></value>
       </designation>
    </concept>
    <concept>
@@ -862,7 +862,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Beliggenhed"></value>
+         <value value="Lokation"></value>
       </designation>
    </concept>
    <concept>
@@ -875,7 +875,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Måle"></value>
+         <value value="Måling"></value>
       </designation>
    </concept>
    <concept>
@@ -888,7 +888,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="MålReport"></value>
+         <value value="Målingsundersøgelse"></value>
       </designation>
    </concept>
    <concept>
@@ -901,7 +901,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Medier"></value>
+         <value value="Medie"></value>
       </designation>
    </concept>
    <concept>
@@ -927,7 +927,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Medicinadministration"></value>
+         <value value="Medicinering"></value>
       </designation>
    </concept>
    <concept>
@@ -940,7 +940,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Medicin Dispense"></value>
+         <value value="Dispensering"></value>
       </designation>
    </concept>
    <concept>
@@ -953,20 +953,22 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Medicin Anmodning"></value>
+         <value value="Medicineringsanmodning"></value>
       </designation>
    </concept>
    <concept>
       <code value="MedicationStatement"></code>
       <display value="MedicationStatement"></display>
-      <definition value="A record of a medication that is being consumed by a patient.   A MedicationStatement may indicate that the patient may be taking the medication now, or has taken the medication in the past or will be taking the medication in the future.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay.   The medication information may come from sources such as the patient's memory, from a prescription bottle,  or from a list of medications the patient, clinician or other party maintains The primary difference between a medication statement and a medication administration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medication statement is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the medication statement information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information."></definition>
+      <definition value="A record of a medication that is being consumed by a patient.   A MedicationStatement may indicate that the patient may be taking the medication now, or has taken the medication in the past or will be taking the medication in the future.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay.   The medication information may come from sources such as the patient's memory, from a prescription bottle,  or from a list of medications the patient, clinician or other party maintains 
+
+The primary difference between a medication statement and a medication administration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medication statement is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the medication statement information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information."></definition>
       <designation>
          <language value="da"></language>
          <use>
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Erklæring om medicin"></value>
+         <value value="Medicinerklæring"></value>
       </designation>
    </concept>
    <concept>
@@ -992,7 +994,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="MessageHeader"></value>
+         <value value="Brevhoved"></value>
       </designation>
    </concept>
    <concept>
@@ -1018,7 +1020,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Ernæring Bestil"></value>
+         <value value="Ernæringsbestilling"></value>
       </designation>
    </concept>
    <concept>
@@ -1044,7 +1046,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Operation Definition"></value>
+         <value value="Operationsdefinition"></value>
       </designation>
    </concept>
    <concept>
@@ -1057,7 +1059,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="OperationOutcome"></value>
+         <value value="Operationsudfald"></value>
       </designation>
    </concept>
    <concept>
@@ -1109,7 +1111,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Betaling Bemærk"></value>
+         <value value="Betalingsstatus"></value>
       </designation>
    </concept>
    <concept>
@@ -1148,7 +1150,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="PlanDefinition"></value>
+         <value value="Plandefinition"></value>
       </designation>
    </concept>
    <concept>
@@ -1161,7 +1163,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Praktiserende"></value>
+         <value value="Sundhedsperson"></value>
       </designation>
    </concept>
    <concept>
@@ -1174,7 +1176,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Praktiserende rolle"></value>
+         <value value="Sundhedsrolle"></value>
       </designation>
    </concept>
    <concept>
@@ -1200,7 +1202,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Procedure Anmodning"></value>
+         <value value="Procedureanmodning"></value>
       </designation>
    </concept>
    <concept>
@@ -1213,7 +1215,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ProcessRequest"></value>
+         <value value="Udførelsesanmodning"></value>
       </designation>
    </concept>
    <concept>
@@ -1226,7 +1228,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ProcessResponse"></value>
+         <value value="Udførelsessvar"></value>
       </designation>
    </concept>
    <concept>
@@ -1239,7 +1241,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Herkomst"></value>
+         <value value="Oprindelse"></value>
       </designation>
    </concept>
    <concept>
@@ -1265,7 +1267,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Spørgeskema Svar"></value>
+         <value value="Spørgeskemasvar"></value>
       </designation>
    </concept>
    <concept>
@@ -1291,7 +1293,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Relateret person"></value>
+         <value value="Pårørende"></value>
       </designation>
    </concept>
    <concept>
@@ -1304,7 +1306,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="RequestGroup"></value>
+         <value value="Anmodningsgruppe"></value>
       </designation>
    </concept>
    <concept>
@@ -1317,7 +1319,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ResearchStudy"></value>
+         <value value="Forskningsundersøgelse"></value>
       </designation>
    </concept>
    <concept>
@@ -1330,7 +1332,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ResearchSubject"></value>
+         <value value="Forskningsemne"></value>
       </designation>
    </concept>
    <concept>
@@ -1408,7 +1410,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ServiceDefinition"></value>
+         <value value="Servicedefinition"></value>
       </designation>
    </concept>
    <concept>
@@ -1421,7 +1423,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Slot"></value>
+         <value value="Tidsvindue"></value>
       </designation>
    </concept>
    <concept>
@@ -1447,7 +1449,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="StructureDefinition"></value>
+         <value value="Strukturdefinition"></value>
       </designation>
    </concept>
    <concept>
@@ -1460,7 +1462,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="StructureMap"></value>
+         <value value="Strukturkortlægning"></value>
       </designation>
    </concept>
    <concept>
@@ -1499,7 +1501,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Levering Levering"></value>
+         <value value="Forsyningslevering"></value>
       </designation>
    </concept>
    <concept>
@@ -1512,7 +1514,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="SupplyRequest"></value>
+         <value value="Forsyningsanmodning"></value>
       </designation>
    </concept>
    <concept>
@@ -1538,7 +1540,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="Test rapport"></value>
+         <value value="Testrapport"></value>
       </designation>
    </concept>
    <concept>
@@ -1551,7 +1553,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="TestScript"></value>
+         <value value="Testscript"></value>
       </designation>
    </concept>
    <concept>
@@ -1564,7 +1566,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="ValueSet"></value>
+         <value value="Værdisæt"></value>
       </designation>
    </concept>
    <concept>
@@ -1577,7 +1579,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="VisionPrescription"></value>
+         <value value="Synsrecept"></value>
       </designation>
    </concept>
 </CodeSystem>

@@ -60,7 +60,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="tirsdag"></value>
+         <value value="Tirsdag"></value>
       </designation>
    </concept>
    <concept>
@@ -73,7 +73,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="onsdag"></value>
+         <value value="Onsdag"></value>
       </designation>
    </concept>
    <concept>
@@ -86,7 +86,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="torsdag"></value>
+         <value value="Torsdag"></value>
       </designation>
    </concept>
    <concept>
@@ -112,7 +112,7 @@
             <system value="http://snomed.info/sct"></system>
             <code value="900000000000013009"></code>
          </use>
-         <value value="lørdag"></value>
+         <value value="Lørdag"></value>
       </designation>
    </concept>
    <concept>
