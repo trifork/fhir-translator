@@ -1186,7 +1186,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="FEV1"></value>
     </designation>
   </concept>
   <concept>
@@ -1200,7 +1200,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="FVC"></value>
     </designation>
   </concept>
   <concept>
@@ -1239,7 +1239,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Systolisk/diastoliskblodtryk"></value>
     </designation>
   </concept>
   <concept>
@@ -1252,7 +1252,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Systolisk/diastoliskblodtryk"></value>
     </designation>
   </concept>
   <concept>
@@ -1265,7 +1265,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="MRC"></value>
     </designation>
   </concept>
   <concept>
@@ -1293,7 +1293,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="FEV1 af forventet værdi"></value>
     </designation>
   </concept>
   <concept>
@@ -1540,7 +1540,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Rejse-sætte-sig-test"></value>
     </designation>
   </concept>
   <concept>
@@ -1828,7 +1828,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Iltmætning"></value>
     </designation>
   </concept>
   <concept>
@@ -1895,7 +1895,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Højde"></value>
     </designation>
   </concept>
   <concept>
@@ -1908,7 +1908,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Vægt"></value>
     </designation>
   </concept>
   <concept>
@@ -1922,7 +1922,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="BMI"></value>
     </designation>
   </concept>
   <concept>
@@ -2120,7 +2120,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="Puls"></value>
     </designation>
   </concept>
   <concept>
@@ -2377,7 +2377,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"></system>
         <code value="consumer"></code>
       </use>
-      <value value="TBD"></value>
+      <value value="CAT"></value>
     </designation>
   </concept>
   <concept>
