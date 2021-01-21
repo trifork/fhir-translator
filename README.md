@@ -7,7 +7,10 @@ Executable jar that translates input FHIR resources using Google Cloud Translati
 - English (`en`) source language
 
 ## CodeSystem Concept Translation
-CodeSystem Concepts are translated by their `display` text by adding a `designation` property to the Concept containing a `language` property containing the translation `target_language` and `value` containing the output of the translation. 
+CodeSystem Concepts are translated by their `display` text by adding a `designation` property to the Concept containing a `language` property containing the translation `target_language` and `value` containing the output of the translation.  
+### Specifying CodeSystems to Translate
+- The input CodeSystems to translate is determined from the ValueSets specified in [application.yaml](src/main/resources/application.yaml).  
+- Each ValueSet is looked up on http://tx.fhir.org and all CodeSystems that has concepts included in the ValueSet are selected for translation.
 
 ## To Run
 - `mvn package`
