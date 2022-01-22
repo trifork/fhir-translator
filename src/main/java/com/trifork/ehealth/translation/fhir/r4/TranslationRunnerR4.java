@@ -8,15 +8,12 @@ import ca.uhn.fhir.util.BundleUtil;
 import com.trifork.ehealth.translation.TranslationRunner;
 import com.trifork.ehealth.translation.TranslatorProperties;
 import com.trifork.ehealth.translation.google.GoogleTranslator;
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.CodeSystem;
 import org.hl7.fhir.r4.model.Coding;
@@ -32,7 +29,7 @@ import org.springframework.stereotype.Component;
 public class TranslationRunnerR4 implements TranslationRunner {
     private static final Logger logger = LoggerFactory.getLogger(TranslationRunnerR4.class);
     private static final String OUT_DIR = "out";
-    private static final FhirContext fhirContext = FhirContext.forR4();
+    private static final FhirContext fhirContext = FhirContext.forDstu3();
     private static final IParser parser = fhirContext.newXmlParser().setPrettyPrint(true);
     private final TranslatorProperties translatorProperties;
     private final GoogleTranslator googleTranslator;
@@ -58,7 +55,7 @@ public class TranslationRunnerR4 implements TranslationRunner {
         }
         logger.info("Total CodeSystems found: {}", uniqueCodeSystems);
 
-        prepareOutDirectory();
+        Files.createDirectories(Path.of(OUT_DIR));
         for (String codeSystemUrl : uniqueCodeSystems) {
             logger.debug("Fetching CodeSystem: {}", codeSystemUrl);
             var bundle = client.search().byUrl("CodeSystem?url=" + codeSystemUrl).returnBundle(Bundle.class).execute();
@@ -81,32 +78,31 @@ public class TranslationRunnerR4 implements TranslationRunner {
         }
     }
 
-    public void addGoogleTranslation(CodeSystem codeSystem, String language) {
+    public void addGoogleTranslation(CodeSystem codeSystem, String toLanguage) {
         for (CodeSystem.ConceptDefinitionComponent concept : codeSystem.getConcept()) {
-            if (concept.hasDisplay()) {
-                String translation = googleTranslator.translate(concept.getDisplay(), language);
-                logger.debug("Translated concept '{}' with Display text '{}' into '{}'", concept.getCode(), concept.getDisplay(), translation);
-                concept.addDesignation(
-                        new CodeSystem.ConceptDefinitionDesignationComponent()
-                                .setLanguage(language)
-                                .setValue(translation)
-                                .setUse(new Coding()
-                                        .setSystem("http://snomed.info/sct")
-                                        //See http://hl7.org/fhir/STU3/valueset-designation-use.html - eg the following:
-                                        .setCode("900000000000013009")));
-            } else
-                logger.debug("SKIPPING Concept with no Display text: {}", concept.getCode());
+            translateConcept(concept, toLanguage);
         }
     }
 
-    public static void prepareOutDirectory() throws IOException {
-        Files.createDirectories(Path.of(OUT_DIR));
-        try (Stream<Path> walk = Files.walk(Path.of(OUT_DIR))) {
-            walk.sorted(Comparator.reverseOrder())
-                    .map(Path::toFile)
-                    .filter(File::isFile)
-                    .peek(file -> logger.debug("Deleting file {}", file.getPath()))
-                    .forEach(File::delete);
+    private void translateConcept(CodeSystem.ConceptDefinitionComponent concept, String toLanguage) {
+        if (concept.hasDisplay()) {
+            String translation = googleTranslator.translate(concept.getDisplay(), toLanguage);
+            logger.debug("Translated concept '{}' with Display text '{}' into '{}'", concept.getCode(), concept.getDisplay(), translation);
+            concept.addDesignation(
+                new CodeSystem.ConceptDefinitionDesignationComponent()
+                    .setLanguage(toLanguage)
+                    .setValue(translation)
+                    .setUse(new Coding()
+                        .setSystem("http://snomed.info/sct")
+                        //See http://hl7.org/fhir/STU3/valueset-designation-use.html - eg the following:
+                        .setCode("900000000000013009")));
+        } else {
+            logger.debug("SKIPPING Concept with no Display text: {}", concept.getCode());
+        }
+        if(concept.hasConcept()) {
+            for (CodeSystem.ConceptDefinitionComponent nestedConcept : concept.getConcept()) {
+                translateConcept(nestedConcept, toLanguage);
+            }
         }
     }
 
