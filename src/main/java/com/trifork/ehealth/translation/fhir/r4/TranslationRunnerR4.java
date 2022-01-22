@@ -1,4 +1,6 @@
-package com.trifork.ehealth.translation.fhir.dstu3;
+package com.trifork.ehealth.translation.fhir.r4;
+
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
@@ -6,16 +8,6 @@ import ca.uhn.fhir.util.BundleUtil;
 import com.trifork.ehealth.translation.TranslationRunner;
 import com.trifork.ehealth.translation.TranslatorProperties;
 import com.trifork.ehealth.translation.google.GoogleTranslator;
-import org.hl7.fhir.dstu3.model.Bundle;
-import org.hl7.fhir.dstu3.model.CodeSystem;
-import org.hl7.fhir.dstu3.model.Coding;
-import org.hl7.fhir.dstu3.model.ValueSet;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Conditional;
-import org.springframework.stereotype.Component;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -25,21 +17,28 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import static java.nio.charset.StandardCharsets.UTF_8;
+import org.hl7.fhir.r4.model.Bundle;
+import org.hl7.fhir.r4.model.CodeSystem;
+import org.hl7.fhir.r4.model.Coding;
+import org.hl7.fhir.r4.model.ValueSet;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Conditional;
+import org.springframework.stereotype.Component;
 
 @Component
-@Conditional(OnDSTU3Condition.class)
-public class TranslationRunnerDstu3 implements TranslationRunner {
-    private static final Logger logger = LoggerFactory.getLogger(TranslationRunnerDstu3.class);
+@Conditional(OnR4Condition.class)
+public class TranslationRunnerR4 implements TranslationRunner {
+    private static final Logger logger = LoggerFactory.getLogger(TranslationRunnerR4.class);
     private static final String OUT_DIR = "out";
-    private static final FhirContext fhirContext = FhirContext.forDstu3();
+    private static final FhirContext fhirContext = FhirContext.forR4();
     private static final IParser parser = fhirContext.newXmlParser().setPrettyPrint(true);
     private final TranslatorProperties translatorProperties;
     private final GoogleTranslator googleTranslator;
 
     @Autowired
-    public TranslationRunnerDstu3(GoogleTranslator googleTranslator, TranslatorProperties translatorProperties) {
+    public TranslationRunnerR4(GoogleTranslator googleTranslator, TranslatorProperties translatorProperties) {
         this.googleTranslator = googleTranslator;
         this.translatorProperties = translatorProperties;
     }
