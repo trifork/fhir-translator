@@ -9,7 +9,7 @@
   </parent>
   <groupId>com.trifork.ehealth</groupId>
   <artifactId>fhir-translator</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.9.0-SNAPSHOT</version>
   <name>fhir-translator</name>
   <description>FHIR Translator</description>
 

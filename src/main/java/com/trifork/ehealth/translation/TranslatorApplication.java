@@ -10,18 +10,18 @@ import org.springframework.context.ApplicationContext;
 import java.io.IOException;
 
 @SpringBootApplication
-public class CodesystemTranslatorApplication implements CommandLineRunner {
-    private static final Logger logger = LoggerFactory.getLogger(CodesystemTranslatorApplication.class);
+public class TranslatorApplication implements CommandLineRunner {
+    private static final Logger logger = LoggerFactory.getLogger(TranslatorApplication.class);
     private final ApplicationContext applicationContext;
     private final TranslationRunner translationRunner;
 
-    public CodesystemTranslatorApplication(ApplicationContext applicationContext, TranslationRunner translationRunner) {
+    public TranslatorApplication(ApplicationContext applicationContext, TranslationRunner translationRunner) {
         this.applicationContext = applicationContext;
         this.translationRunner = translationRunner;
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(CodesystemTranslatorApplication.class, args);
+        SpringApplication.run(TranslatorApplication.class, args);
     }
 
     @Override
