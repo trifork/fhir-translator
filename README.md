@@ -2,7 +2,7 @@
 Executable jar that translates input FHIR resources using Google Cloud Translation and outputs them in serialized form (xml files) 
 
 ## Currently Supports
-- DSTU3
+- DSTU3 and R4
 - CodeSystem (Concepts)
 - English (`en`) source language
 
